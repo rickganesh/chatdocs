@@ -17,7 +17,7 @@ def chat(config: Dict[str, Any], query: Optional[str] = None) -> None:
     interactive = not query
     print()
     if interactive:
-        print("Type your query below and press Enter.")
+        print("Type your query below and press Enter.!")
         print("Type 'exit' or 'quit' or 'q' to exit the application.\n")
     while True:
         print("[bold]Q: ", end="", flush=True)
